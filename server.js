@@ -10,6 +10,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 connectDB();
 
+//Initializing Middleware (allows us to get data in body)
+app.use(express.json({extended: false}));
+
+
 
 //Defining Routes
 app.use('/api/users', usersRouter);
