@@ -1,3 +1,6 @@
 {
-        "mongoURI" : "mongodb+srv://aqsa123:aqsa123@devconnector.tpszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "mongoURI": "mongodb+srv://aqsa123:aqsa123@devconnector.tpszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "jwtSecret": "mySecretToken",
+        "githubClientId": "8e6b24e1d54b3773a87f",
+        "githubSecret": "d2167ab1298d81a1a33345bb4c228e7cd3e7c1d9"
 }
