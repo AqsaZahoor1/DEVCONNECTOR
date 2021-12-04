@@ -7,6 +7,10 @@ const config = require('config');
 const jwt = require('jsonwebtoken');
 const { check, validationResult } = require('express-validator');
 
+
+
+//get user data
+
 router.get('/', authMiddleware, async (req, res) => {
 
   try {
@@ -20,6 +24,8 @@ router.get('/', authMiddleware, async (req, res) => {
 });
 
 
+
+//Login
 
 router.post(
   '/',

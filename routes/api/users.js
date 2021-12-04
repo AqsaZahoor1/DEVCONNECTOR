@@ -34,7 +34,7 @@ router.post(
       if (user) {
         return res
           .status(400)
-          .json({ errors: [{ msg: 'USer already exists' }] });
+          .json({ errors: [{ msg: 'user already exists' }] });
       }
 
       // getting avatar by  using gravater package
